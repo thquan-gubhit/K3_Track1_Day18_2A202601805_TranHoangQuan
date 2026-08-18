@@ -4,16 +4,15 @@
 
 - **MHV:** 2A202601805
 - **Họ và tên:** Trần Hoàng Quân
-- **Tên nhóm:** `[Bổ sung tên nhóm]`
+- **Tên nhóm:** 1
 - **Case:** Case C — AI Support Radar
 
 ### Thành viên nhóm
 
-| STT | Họ và tên                | MHV             |
-| --: | ------------------------ | --------------- |
-|   1 | Trần Hoàng Quân          | 2A202601805     |
-|   2 | `[Bổ sung thành viên 2]` | `[Bổ sung MHV]` |
-|   3 | `[Bổ sung thành viên 3]` | `[Bổ sung MHV]` |
+| STT | Họ và tên        | MHV         |
+| --: | ---------------- | ----------- |
+|   1 | Trần Hoàng Quân  | 2A202601805 |
+|   2 | Trần Thị Hoa Mai | 2A202601317 |
 
 ---
 
