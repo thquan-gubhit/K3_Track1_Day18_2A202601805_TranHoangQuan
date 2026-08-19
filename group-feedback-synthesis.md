@@ -1,0 +1,21 @@
+## Group Feedback Synthesis
+
+| Nội dung                 | Feedback 1                                                                                                 | Feedback 2                                                              | Feedback 3                                                                                   | Pattern hoặc khác biệt                                                                                                                                            |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **First action**         | Đọc mô tả tình trạng hiện tại của learner                                                                  | Đọc bối cảnh và task trước                                              | Đọc bối cảnh và task trước                                                                   | Cả 3 đều bắt đầu bằng việc đọc context/task trước khi đưa ra quyết định                                                                                           |
+| **Breakdown chính**      | Hiểu nhầm 3 prototype là 3 lựa chọn trong cùng một flow                                                    | Do dự khi chọn phương án hỗ trợ                                         | Do dự khi chọn phương án hỗ trợ                                                              | Prototype chưa làm rõ hoàn toàn cách A/B/C được dùng để so sánh; 2/3 tester do dự ở bước quyết định                                                               |
+| **Cách lấy lại control** | Đọc qua cả 3 prototype rồi mới hiểu được cấu trúc                                                          | Xem evidence trước khi quyết định                                       | Xem evidence trước khi lựa chọn                                                              | Cả 3 đều cần đọc thêm thông tin/evidence trước khi cảm thấy đủ căn cứ để quyết định                                                                               |
+| **Option được chọn**     | A + C                                                                                                      | B + C                                                                   | A + B                                                                                        | **Không tester nào chọn một option đơn lẻ.** Cả A, B và C đều xuất hiện đúng 2/3 lần                                                                              |
+| **Trade-off**            | Muốn phát hiện learner nhanh; lo signal như thời gian xem slide có thể nhiễu; muốn can thiệp ngay trên lớp | A phụ thuộc learner tự diễn đạt; kết hợp B+C để tăng khả năng phát hiện | Ưu tiên A+B; không tin AI hoàn toàn; chấp nhận false positive để giảm nguy cơ bỏ sót learner | Tester đều ưu tiên **khả năng phát hiện sớm**, nhưng khác nhau về mức độ tin vào self-report, rule và AI. Không có một mechanism đơn lẻ được đồng thuận tuyệt đối |
+
+## **Một Next Change nhóm chốt:**
+
+> Chuyển critical moment của prototype từ **sau buổi học** sang **ngay trong lúc learner đang gặp khó khăn trên lớp**, đồng thời giữ evidence đủ rõ để instructor quyết định có hỏi/hỗ trợ ngay hay không.
+
+## **Evidence nào dẫn tới quyết định này:**
+
+> Hai trong ba tester nhấn mạnh rằng khi đã xuất hiện tín hiệu rõ ràng, instructor nên hỏi hoặc hỗ trợ learner **ngay lập tức**, thay vì chờ đến sau buổi học. Tester cũng chỉ ra rằng một số tín hiệu như thời gian xem slide lâu có thể là nhiễu, nên instructor vẫn cần xem evidence trước khi hành động.
+
+## **Still Unproven sau ba feedback:**
+
+> Nhóm vẫn chưa biết cơ chế hoặc combination nào giữa A/B/C thực sự hiệu quả hơn; chưa xác định được signal hoặc threshold nào đủ đáng tin để kích hoạt hỗ trợ; và chưa chứng minh việc can thiệp ngay trên lớp có thực sự giúp learner theo kịp bài tốt hơn mà không gây thêm gián đoạn.
