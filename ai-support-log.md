@@ -1,25 +1,11 @@
-# AI đã hỗ trợ:
+### AI đã giúp tôi ở đâu?
 
-- Làm rõ solution, capability và problem.
-- Xây Hypothesis Problem.
-- Phân tích ba cuộc phỏng vấn learner.
-- Tạo ba solution options.
-- Xây Human–AI Decision Table.
-- Xác định common context và content fixture.
-- Xây scope prototype.
-- Hỗ trợ tạo prototype HTML/CSS/JavaScript.
+AI hỗ trợ gợi ý và rà soát ba solution mechanisms A/B/C để bảo đảm chúng khác nhau về cách khởi tạo và role split; tạo content fixture và canned AI output dùng chung cho prototype; hỗ trợ viết code prototype HTML/CSS/JavaScript; và gợi ý các câu hỏi trung tính để dùng khi test. AI cũng giúp kiểm tra scope để prototype chỉ tập trung vào critical interaction.
 
-# AI sai hoặc hời hợt ở đâu:
+### AI sai, hời hợt hoặc làm các options giống nhau ở đâu?
 
-- Có lúc suy diễn mạnh hơn evidence.
-- Nội dung đôi khi quá dài.
-- Từng đề xuất thêm support threshold nhưng nhóm không sử dụng.
-- Có lúc mở rộng prototype vượt quá critical interaction.
+Ban đầu AI có xu hướng mở rộng prototype thành quá nhiều màn hình và diễn giải một số evidence mạnh hơn dữ liệu thực tế. AI cũng từng đề xuất thêm “support threshold” dù nhóm không cần phần này, và một số phiên bản ban đầu chưa làm A/B/C khác nhau đủ rõ về mechanism.
 
-  # Nhóm đã tự sửa:
+### Tôi đã tự sửa hoặc quyết định lại điều gì?
 
-- Đối chiếu lại transcript.
-- Loại bỏ kết luận chưa được chứng minh.
-- Bỏ support threshold.
-- Giới hạn mỗi option còn 2–3 trạng thái.
-- Không tuyên bố option nào tốt hơn vì chưa test.
+Tôi đối chiếu lại transcript và feedback gốc, giữ nguyên quote và observation của tester, đồng thời tách rõ evidence với phần diễn giải của nhóm. Tôi bỏ các kết luận chưa có dữ liệu hỗ trợ, loại bỏ phần support threshold, chỉnh lại A/B/C để khác nhau rõ về mechanism và giữ cùng common context. Việc tester chọn option nào, Next Change và các kết luận cuối đều do tester và nhóm quyết định, không dùng AI để quyết định thay.

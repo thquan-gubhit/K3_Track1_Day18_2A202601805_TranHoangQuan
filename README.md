@@ -168,74 +168,14 @@ Sau ba phiên feedback, nhóm vẫn chưa chứng minh được:
 
 ## 6. AI Support Log
 
-AI được sử dụng như một công cụ hỗ trợ brainstorm, cấu trúc nội dung, phân tích evidence và rà soát tài liệu. Các quyết định cuối cùng được tôi và nhóm tự kiểm tra và điều chỉnh dựa trên dữ liệu thực tế.
+### AI đã giúp tôi ở đâu?
 
-### AI đã hỗ trợ gì?
+AI hỗ trợ gợi ý và rà soát ba solution mechanisms A/B/C để bảo đảm chúng khác nhau về cách khởi tạo và role split; tạo content fixture và canned AI output dùng chung cho prototype; hỗ trợ viết code prototype HTML/CSS/JavaScript; và gợi ý các câu hỏi trung tính để dùng khi test. AI cũng giúp kiểm tra scope để prototype chỉ tập trung vào critical interaction.
 
-AI đã hỗ trợ nhóm trong các giai đoạn sau:
+### AI sai, hời hợt hoặc làm các options giống nhau ở đâu?
 
-- Giải thích các khái niệm như solution, directive, capability, actor, situation, job, pain, evidence, workaround và consequence.
-- Chuyển AI Support Radar từ một solution cụ thể thành capability trung tính.
-- Làm rõ change chain từ solution đến outcome.
-- Xác định các actor liên quan gồm learner, instructor và coach.
-- Xây dựng Situation & Job và JTBD Hypothesis.
-- Viết hai Pain Hypotheses cạnh tranh.
-- Xây dựng bảng evidence làm giả thuyết mạnh hơn hoặc yếu đi.
-- Brainstorm Solution Parking Lot với cả hướng sử dụng AI và không sử dụng AI.
-- Soạn, rút gọn và điều chỉnh Conversation Guide.
-- Phân tích ba cuộc phỏng vấn learner.
-- Hỗ trợ tách riêng:
-  - Lời và hành động thực tế của learner.
-  - Phần diễn giải của nhóm.
-  - Khó khăn và workaround.
-  - Consequence.
-  - Evidence trái giả thuyết.
-  - Exact quote đáng chú ý.
+Ban đầu AI có xu hướng mở rộng prototype thành quá nhiều màn hình và diễn giải một số evidence mạnh hơn dữ liệu thực tế. AI cũng từng đề xuất thêm “support threshold” dù nhóm không cần phần này, và một số phiên bản ban đầu chưa làm A/B/C khác nhau đủ rõ về mechanism.
 
-- Hỗ trợ chốt Hypothesis Problem dùng trong Day 18.
-- Xây dựng ba solution hypotheses:
-  - A — Learner Check-in.
-  - B — Rule-based Alert.
-  - C — AI Support Radar.
+### Tôi đã tự sửa hoặc quyết định lại điều gì?
 
-- Xây dựng Human–AI Decision Table.
-- Xác định common context, content fixture, prototype scope và prototype annotation.
-- Hỗ trợ xây dựng micro-prototype HTML/CSS/JavaScript ban đầu.
-- Điều chỉnh prototype để thông tin learner chỉ xuất hiện sau khi tester chọn từng option.
-- Hỗ trợ giải thích các trường cần ghi trong Prototype Feedback Note như First Action, Control/Recovery và Evidence chống lại kỳ vọng.
-- Hỗ trợ tổng hợp ba phiên prototype feedback thành các pattern chung.
-- Gợi ý Next Change và danh sách Still Unproven dựa trên evidence từ ba tester.
-- Hỗ trợ cấu trúc và cập nhật README.
-
-### AI sai hoặc hời hợt ở đâu?
-
-Một số hạn chế trong đầu ra của AI:
-
-- Một số câu trả lời dài và mở rộng nhiều hơn phạm vi cần thiết.
-- Có lúc AI diễn giải hoặc kết luận mạnh hơn evidence thực tế từ phỏng vấn.
-- Có lúc AI biến một nhận xét của một learner thành finding chung trước khi kiểm tra xem pattern có lặp lại hay không.
-- AI từng đề xuất bổ sung phần **support threshold**, trong khi nhóm không chọn đưa nội dung này vào phiên bản cuối.
-- Một số đề xuất ban đầu tập trung vào việc phát hiện learner **sau phiên học**, trong khi evidence từ learner và prototype tester đều cho thấy critical moment có thể nằm ngay trong lúc buổi học đang diễn ra.
-- AI có xu hướng đề xuất thêm màn hình hoặc trạng thái nhiều hơn phạm vi micro-prototype cần test.
-- Khi phân tích prototype feedback, AI ban đầu có xu hướng tìm một option nổi trội, trong khi dữ liệu thực tế cho thấy cả ba tester đều muốn kết hợp hai mechanism và chưa có option thắng rõ ràng.
-- AI không thể tự xác định signal hoặc threshold nào thực sự chính xác nếu chưa có dữ liệu thực tế để kiểm chứng.
-
-### Tôi đã tự kiểm tra và sửa như thế nào?
-
-Tôi và nhóm đã:
-
-- Đối chiếu nội dung AI tổng hợp với transcript và nội dung phỏng vấn gốc.
-- Tách rõ exact quote, hành vi thực tế và phần suy luận của nhóm.
-- Không coi một problem statement hợp lý là evidence.
-- Chỉ xem một pattern là đáng chú ý khi có dữ liệu thực tế hỗ trợ.
-- Loại bỏ hoặc giảm mức độ chắc chắn của các kết luận chưa được chứng minh.
-- Ghi rõ giới hạn của learner-side evidence trước khi có dữ liệu từ Lab Coach.
-- Mở rộng phạm vi từ “sau phiên học” thành “trong hoặc ngay sau phiên học” dựa trên evidence thực tế.
-- Loại bỏ phần support threshold khỏi Conversation Guide phiên bản cuối.
-- Giữ A/B/C cùng một task và context để việc so sánh tập trung vào solution mechanism.
-- Giới hạn mỗi option ở critical interaction cần test thay vì xây toàn bộ product.
-- Giữ instructor là người review evidence và đưa ra quyết định cuối cùng.
-- Điều chỉnh prototype để không hiển thị toàn bộ thông tin learner ngay từ common context; evidence chỉ xuất hiện khi tester vào từng option.
-- Không kết luận A, B hoặc C là option tốt nhất vì ba tester đều chọn các combination khác nhau.
-- Không coi một behavioral signal như thời gian xem slide lâu là bằng chứng chắc chắn learner gặp khó khăn, sau khi tester chỉ ra khả năng signal này bị nhiễu.
-- Chọn Next Change dựa trên feedback lặp lại từ tester: đưa critical interaction về **ngay trong lúc học**, thay vì tiếp tục giữ assumption rằng hỗ trợ nên diễn ra sau phiên học.
+Tôi đối chiếu lại transcript và feedback gốc, giữ nguyên quote và observation của tester, đồng thời tách rõ evidence với phần diễn giải của nhóm. Tôi bỏ các kết luận chưa có dữ liệu hỗ trợ, loại bỏ phần support threshold, chỉnh lại A/B/C để khác nhau rõ về mechanism và giữ cùng common context. Việc tester chọn option nào, Next Change và các kết luận cuối đều do tester và nhóm quyết định, không dùng AI để quyết định thay.
